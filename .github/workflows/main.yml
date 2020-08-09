@@ -2,6 +2,8 @@ on:
   push:
     branches:
       - master
+      jobs:
+  build:
 steps:
   - uses: actions/checkout@v1.0
     name: Check out code
